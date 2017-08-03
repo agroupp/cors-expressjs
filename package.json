@@ -1,0 +1,34 @@
+{
+  "name": "cors-expressjs",
+  "version": "0.0.1",
+  "description": "Cors middleware for Express framework",
+  "main": "index.js",
+  "engines": {
+    "node": ">=6.11.2"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agroupp/cors-expressjs.git"
+  },
+  "keywords": [
+    "cors",
+    "express",
+    "expressjs",
+    "node",
+    "nodejs"
+  ],
+  "author": "Arthur Groupp <arth.groupp@gmail.com> (http://groupp.org)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/agroupp/cors-expressjs/issues"
+  },
+  "homepage": "https://github.com/agroupp/cors-expressjs#readme",
+  "devDependencies": {
+    "chai": "^4.1.0",
+    "mocha": "^3.5.0",
+    "supertest": "^3.0.0"
+  }
+}
