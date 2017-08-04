@@ -1,10 +1,10 @@
 {
   "name": "cors-expressjs",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Cors middleware for Express framework",
   "main": "index.js",
   "engines": {
-    "node": ">=6.11.2"
+    "node": ">=6.0.0"
   },
   "scripts": {
     "test": "mocha --reporter spec"
