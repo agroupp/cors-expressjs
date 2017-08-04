@@ -25,3 +25,8 @@ To start using this middleware you need to create an instance of Cors class. The
     app.listen(3000);
 
 That's it. Very simple :)
+
+## Tests
+
+    npm test
+
