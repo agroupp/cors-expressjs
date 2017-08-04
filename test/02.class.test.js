@@ -50,5 +50,4 @@ describe('Class Cors', function(){
                 .to.include('x-custom-header');
         })
     });
-})
-
+});

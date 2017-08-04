@@ -27,6 +27,7 @@
   },
   "homepage": "https://github.com/agroupp/cors-expressjs#readme",
   "devDependencies": {
+    "body-parser": "^1.17.2",
     "chai": "^4.1.0",
     "express": "^4.15.3",
     "mocha": "^3.5.0",
