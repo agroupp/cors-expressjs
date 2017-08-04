@@ -1,7 +1,10 @@
 # cors-expressjs
 Cors middleware for Express framework
 
+
 [![Build Status](https://travis-ci.org/agroupp/cors-expressjs.svg?branch=master)](https://travis-ci.org/agroupp/cors-expressjs)
+[![Coverage Status](https://coveralls.io/repos/github/agroupp/cors-expressjs/badge.svg?branch=master)](https://coveralls.io/github/agroupp/cors-expressjs?branch=master)
+
 
 Class based middleware for CORS support for APIs.
 Based on article [HTTP access control (CORS)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS)
