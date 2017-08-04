@@ -7,7 +7,8 @@
     "node": ">=6.0.0"
   },
   "scripts": {
-    "test": "mocha --reporter spec"
+    "test": "mocha --reporter spec",
+    "cover": "node ./node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec test/*"
   },
   "repository": {
     "type": "git",
@@ -29,7 +30,9 @@
   "devDependencies": {
     "body-parser": "^1.17.2",
     "chai": "^4.1.0",
+    "coveralls": "^2.13.1",
     "express": "^4.15.3",
+    "istanbul": "^0.4.5",
     "mocha": "^3.5.0",
     "supertest": "^3.0.0"
   }
