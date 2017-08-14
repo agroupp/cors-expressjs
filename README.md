@@ -18,6 +18,7 @@ Install Cors as an npm module and save it to your package.json file as a depende
 ## Basic Usage
 To start using this middleware you need to create an instance of Cors class. Then you can use middleWare method. Here is example:
 
+```javascript
     'use strict';
     const express = require('express');
     const Cors = require('cors-expressjs');
@@ -28,6 +29,7 @@ To start using this middleware you need to create an instance of Cors class. The
     app.get('/', (req, res) => res.json({ success: true }));
 
     app.listen(3000);
+```
 
 That's it. Very simple :)
 
